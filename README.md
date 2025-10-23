@@ -1,6 +1,6 @@
 # ICS-Quadratic-Grader2-Kanyama-David
 ## Project Description
-This project, developed for the ICT251 JS GitHub Activity, is a single-file web application (index.html) that implements two JavaScript-driven tools: a *Quadratic Equation Solver* and a *Grading System* calculator. The page runs entirely offline.
+This project, developed for the ICT251 JS GitHub Activity, is a single-file web application (Index.html) that implements two JavaScript-driven tools: a *Quadratic Equation Solver* and a *Grading System* calculator. The page runs entirely offline.
 
 ## Tools Implemented
 
@@ -8,11 +8,7 @@ This project, developed for the ICT251 JS GitHub Activity, is a single-file web 
 Calculates the discriminant, determines the nature of the roots (distinct real, equal real, or complex conjugate), and provides the value of the roots for any quadratic equation $ax^2 + bx + c = 0$. Includes validation for non-numeric input and the $a \neq 0$ condition.
 
 ### 2. Grading System
-Converts a numerical score (0-100) into a letter grade based on defined thresholds (A+, A, B+, B, C+, C, D, F). Includes validation to ensure the score is within the required 0-100 range.
-
-## Screenshots
-
-*Insert a screenshot of your running index.html file here.*
+Converts a numerical score (0-100) into a letter grade based on defined thresholds (A+, A, B+, B, C+, C, D). Includes validation to ensure the score is within the required 0-100 range.
 
 ## Test Cases
 
@@ -36,6 +32,5 @@ Converts a numerical score (0-100) into a letter grade based on defined threshol
 | 60 | B |
 | 50 | C |
 | 49 | D |
-| 48 | F |
 | -5 | Error |
 | 101 | Error |
